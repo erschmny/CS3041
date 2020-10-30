@@ -68,3 +68,60 @@ footer {
     font-weight: bold;
     padding-top: 10px;
 }
+
+video {
+    /* add your style definitions here */
+    border: solid darkcyan;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    /* transitions applied to the video element */
+    -moz-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+audio {
+    border: solid darkcyan;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+button.back{
+    /*These lines override the previous styling of buttons*/
+    background: url("greyButton.png") center no-repeat;
+    background-size: cover;
+    border-image: url("greyButton.png") 1%;
+    width:60px;
+    height: 30px;
+
+    /*These lines position the back button inside the header*/
+    position:absolute;
+    left:16px;
+    top:8px;
+}
+
+header.secondary{
+    padding-left: 75px;
+}
+
+button {
+    /*center the button*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* add your code to set top and bottom margins */
+
+    /*add an image to your button*/
+    background: url("orangeButton.png") center no-repeat;
+    background-size: cover;;
+    border-image: url("orangeButton.png") 1%;
+
+    /*set width and height for the button*/
+}

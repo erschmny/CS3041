@@ -1,13 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen and (orientation:portrait)"/>
+    <link rel="stylesheet" type="text/css" href="landscape.css" media="screen and (orientation:landscape)"/>
     <meta name="viewport" content="width=device-width, user-scalable=no" />
-    <title> BIKE WPI </title>
+    <title>Sights and Sounds</title>
 </head>
 <body>
 <div id="content">
-    <header>RIDE</header>
+    <header class="secondary">Sights and Sounds</header>
+
+    <button class="back" onclick="location.href='index.html';">Back</button>
+
+    <p> Playing around: </p>
+    <video width="300" height="220" controls>
+        <source src="Bear_movie.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+    </video>
+
+    <p> Horsing around: </p>
+    <audio width=300 controls>
+        <source src="horse.ogg" type="audio/ogg">
+        <source src="horse.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
     <footer>CS3041: Human-Computer Interaction </footer>
 </div>
 </body>
