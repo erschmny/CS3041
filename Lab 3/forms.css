@@ -1,0 +1,52 @@
+label {
+    display: block;
+}
+
+input {
+    font-size: 14px;
+    margin: 5px;
+}
+
+form {
+    border: solid 5px #222222;
+}
+
+.error {
+    background-color: LightYellow;
+    color: DarkRed;
+    width: 160px;
+    padding: 10px;
+    border: 1px solid gray;
+    position: absolute;
+    left: 120px;
+    box-shadow: 3px 3px 3px #999999;
+    border-radius: 7px;
+    visibility: hidden;
+}
+
+input[type='submit'] {
+
+    /* Add more rules here */
+    font-size: 16px;
+    width: 40%;
+    height: 25px;
+    margin: 5px;
+    background: url("blueButton.png") center no-repeat;
+    background-size: cover;;
+    border-image: url("blueButton.png") 1%;
+}
+
+
+input:required {
+    background-color: yellow;
+}
+
+input:invalid {
+    /* insert your own styles for invalid form input */
+    background-color: red;
+}
+
+input:valid {
+    /* insert your own styles for valid form input */
+    background-color: darkgreen;
+}
